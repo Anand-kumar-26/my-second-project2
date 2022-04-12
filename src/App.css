@@ -1,0 +1,102 @@
+.Devices {
+  text-align: center;
+  display: inline-flex;
+}
+.Header
+{
+  padding: 0px 20px;
+}
+.FilterSide
+{
+  display: inline-flex;
+  flex-direction: column;
+}
+.Filter
+{
+  display: flex;
+  width: 70%;
+  padding-left: 20px;
+  padding-right: 200px;
+  flex-direction: column;
+}
+.Filter *
+{
+  text-align: left;
+}
+.Filter .FilterContent
+{
+  border-bottom: 2px gray solid;
+}
+.CheckBox
+{
+  padding-left: 5px;
+  padding-bottom: 10px;
+}
+.ProductSide
+{
+  display: inline-flex;
+  flex-direction: column;
+  width: 100%;
+}
+.Product
+{
+  display: flex;
+  border: 1px grey solid;
+  width: 115%;
+}
+.LeftContent
+{
+  flex: 1;
+  background-color: white;
+}
+.RightContent
+{
+  flex: 4;
+  text-align: left;
+  background-color: white;
+}
+.RightContent2
+{
+  flex: 1;
+  text-align: right;
+  line-height: 0.2em;
+  padding-top: 70px;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: white;
+}
+.LeftContent img
+{
+  width: 230px;
+  height: 230px;
+  margin: 20px 20px;
+}
+.RightContent p
+{
+  line-height: 0.6em;
+  font-size: 13px;
+  color: rgb(46, 45, 45);
+}
+.Quantity
+{
+  display: inline-flex;
+}
+.Quantity button
+{
+  border-style: none;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 16px;
+}
+.Cart
+{
+  background-color: orange;
+  color: white;
+  border-bottom-left-radius:  18px;
+  border-bottom-right-radius: 18px;
+  border-top-left-radius: 18px;
+  border-top-right-radius: 18px;
+}
+.ListDataActive{
+  border-bottom: 7px orange solid;
+}
